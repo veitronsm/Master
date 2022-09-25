@@ -1,0 +1,20 @@
+.hader_grupo5 {
+    background-color: blue;
+}
+
+main {
+    display: flex;
+}
+
+.tarjeta {
+    text-align: center;
+    width: 22%;
+    height: 500px;
+    background-color: black;
+    margin: 3%;
+    border-radius: 4%;
+}
+
+.tarjeta__nombre {
+    color: white;
+}
