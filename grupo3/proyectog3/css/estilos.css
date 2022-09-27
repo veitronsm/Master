@@ -97,12 +97,14 @@ header {
       div.perfiles img.izquierda {
        width: 200px;
         height: 180px;
+       
       }
       
       div.perfiles img.derecha {
         width: 200px;
         height: 180px;
-        float: right;
+        float: left;
+        padding: 15px;
       }
       
       div.reset {
