@@ -59,3 +59,7 @@ main {
     width: 60%;
     border-radius: 50%;
 }
+
+.tarjeta__texto {
+    color: white;
+}
