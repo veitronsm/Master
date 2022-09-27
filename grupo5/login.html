@@ -1,14 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio de sesión</title>
+        <style>
+        body{
+            padding: 0;
+            margin: 0;
+            background-color: #000000;
+        }
+        #imagen_login{
+            width: 450px;
+        }
+        #formulario_login{
+            color: #ffff;
+        }
+    </style>
 </head>
-<body>
-    <h1>¡Empieza ya!</h1>
-    <img  src="imagenes/login_img.jpg" alt="" />
 
+<body>
+    <div id="imagen_login">
+        <img src="imagenes/login_img.jpg" alt="" />
+    </div>
+    <div id="formulario_login">
+        <h1>¡Empieza ya!</h1>
+        <main>
+            <form action="paginaprincipal.html" id="login">
+              
+                <label for="email">Usuario:</label>
+                 <input id="email" type="email">
+                <br><br>
+                <label for="pass">Contraseña:</label>
+                <input id="pass" type="password">
+                <br><br>
+                <input type="submit" value="Iniciar sesión">
+
+                <br><br>
+                <a href="#">Nuevo Usuario</a>
+
+            </form>
+        </main>
+    </div>
 </body>
+
 </html>
