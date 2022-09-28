@@ -65,41 +65,27 @@ body{
         width: 80%;
         max-width: 500px;
         outline: none;
-        border: none;
         padding: 1em;
         font: inherit;
-        border-radius: .6em;
         background-color: rgb(27, 27, 27);
+    
     }
     
     .main__input--send{
-        background-color: #DC3F31;
+        background-color:  red;
         color: #fff;
         font-weight: 600;
+        font-family: 'Times New Roman', Times, serif;
+        padding: 0.12rem 10.10rem;;
+        border-radius: .6em;
+
+
     }
     
     .main__title{
         font-size: 2.3rem;
         color: #fff;
-    
+        font-family:'Times New Roman', Times, serif;
     }
-    
-    
-    .main__social{
-        display: grid;
-        grid-auto-flow: column;
-        justify-content: center;
-        grid-auto-columns: max-content;
-        gap: 1em;
-    }
-    
-    .main__link{
-        border: 1px solid #fff;
-        border-radius: 10px;
-        padding: .6em 1.5em;
-    }
-    
-    .main__link:hover{
-        background-color: #fff;
-    }
+
     
