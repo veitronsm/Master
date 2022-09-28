@@ -1,0 +1,189 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* --NAVBAR (BARRA DE NAVEGACIÓN)-- */
+
+.header {
+    background-color: #0E0E0E;
+    position: sticky;
+    padding: 0 1rem;
+    top: 0;
+    width: 100%;
+}
+
+.content {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    max-width: 1000px;
+    width: 100%;
+}
+
+.content_space-between {
+    justify-content: space-between;
+}
+
+.logo {
+    align-items: center;
+    border: 3px solid white;
+    border-radius: 50%;
+    justify-content: center;
+    display: flex;
+    width: 2rem;
+}
+
+.logo__link {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.navbar {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar__link {
+    border-bottom: 0.1875rem solid transparent;
+    color: white;
+    padding: 0.8rem 0.6rem 0.675rem 0.6rem;
+    text-decoration: none;
+}
+
+.navbar__link:hover {
+    border-bottom: white solid;
+}
+
+.navbar__link_border-inactive:hover {
+    border-bottom: transparent solid;
+}
+
+
+/* --AREA DEL HERO (LANDING PAGE)-- */
+
+.hero {
+    background-color: black;
+    display: flex;
+    width: 100%;
+}
+
+.hero__content {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../img/hero-img.jpg);
+    background-size: cover;
+    background-position: center center;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    height: 37.5rem;
+    padding: 0 1rem;
+    padding-top: 12.5rem;
+}
+
+.hero__title {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 4.625rem;
+    margin: 2rem;
+}
+
+.hero__eslogan {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.button {
+    background-color: red;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.button__link {
+    color: white;
+    padding: 0.8rem 2.5rem;
+    text-decoration: none;
+}
+
+
+/* --AREA DE SERVICIO--  */
+
+.servicios {
+    background-color: #131313;
+    padding: 2rem;
+    padding-bottom: 4rem;
+}
+
+.servicios_content {
+    display: flex;
+    flex-flow: column nowrap;
+}
+
+.servicios__title {
+    background-color: red;
+    color: white;
+    margin: 2rem;
+    padding: 0.3rem 0.5rem;
+}
+
+.card__content {
+    display: flex;
+}
+
+.card {
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 25rem;
+    justify-content: flex-start;
+    margin: 1rem;
+    padding: 1rem;
+    width: 15.625rem;
+}
+
+.card_imagen-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(../img/servicio1.jpg);
+    background-position: center left;
+    background-size: cover;
+}
+
+.card_imagen-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(../img/servicio2.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.card_imagen-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(../img/servicio3.jpg);
+    background-position: center center;
+    background-size: cover;
+}
+
+.card__title {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 2rem;
+}
+
+.card__descripcion {
+    color: gray;
+    font-size: 1rem;
+}
+
+.card__precio {
+    font-size: 3rem;
+    margin: 3rem 0;
+}
+
+.card_button-transparent {
+    background-color: transparent;
+    border: 0.125rem solid white;
+}
