@@ -21,6 +21,14 @@ body{
     gap: .6em;
 
     animation: mostrar 1.5s ease-in-out;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../img/);
+    background-size: cover;
+    background-position: center center;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    height: 37.5rem;
+    padding: 0 1rem;
+    padding-top: 12.5rem;
 }
 
 @keyframes mostrar {
@@ -57,8 +65,8 @@ body{
 
 .main__form{
     display: grid;
-    justify-items: center;
-    gap: 1.5em;
+    justify-items: right;
+    gap: 3.9em;
 }
 
 .main__input{
