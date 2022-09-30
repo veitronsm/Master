@@ -1,0 +1,134 @@
+/*Aqui inician los estilos */
+/*Estilos del header*/
+header {
+    background: rgba(212, 183, 18, 0.7);
+    width:97%;
+    position:relative;
+    z-index: 100;
+    height: 100px;
+    height: 150px;
+    text-align:right ;
+    margin-left: 10px;
+    margin-right: 20px;
+    }
+    header h1{
+      text-align: center;
+      margin-top: 10px;
+    }
+    
+    .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    /*Estilo para el titulo principal*/
+    .titulo{
+      width: 100%;
+      height: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    /*Aqui se da estilo al boton que lleva al proyecto del grupo 3*/
+    .btn-proyecto {
+      background-color: #99b499; /* Green */
+      border-radius: 12px;
+      color: rgb(165, 29, 29);
+      padding: 20px;
+      text-align: center;
+      text-decoration: none;
+      display:inline ;
+      font-size: 200%;
+      margin-right: 20px;
+      cursor: pointer;      
+      width: 600px;
+      height: 120px;
+      font-weight: bold;     
+
+    }
+    /*aqui finalizan los estilos del boton*/
+   /*Estilos de la seccion presentación*/
+      
+      p{
+        color: antiquewhite;
+        Font-family: Cambria, Georgia, serif.;
+        font-size:30px;
+      }
+      #descripcion{
+        align="right";
+        /* color: #2667FF */
+        font-size: 250%;
+        font-family:"Latin Modern Roman";
+        text-align: justify;
+        background-image: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
+        padding: 45px;
+        height: 200px;
+       
+      }
+      h2{
+        color: antiquewhite;
+        transition-property: opacity, left, top, height;
+        transition-duration: 3s, 5s;
+      }
+      body{
+        background-image:url("/grupo3/img/icons/fondo.jpg");
+      }
+      /* Aqui inician los estilos del area de los perfiles*/
+      #desarrollo{
+        color: rgb(233, 223, 223);
+        text-align: center;
+        background-color:#449;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+      }
+      img.mediana{
+        width: 200px;
+        height: 180px;
+        border: solid 1px;
+        
+      }
+      .mis-perfiles{
+        font-size:240%;
+      }
+      div.perfiles {
+        width: 90%;
+        margin: 20px auto;
+        background-color: #449;
+        color: #fff;
+        padding: 15px;
+      }
+      
+      div.perfiles img.izquierda {
+       width: 200px;
+        height: 180px;
+       
+      }
+      
+      div.perfiles img.derecha {
+        width: 200px;
+        height: 180px;
+        float: left;
+        padding: 15px;
+        
+      }
+      
+      div.reset {
+        clear: both;
+      }
+      .names{
+        color: rgb(13, 13, 15);
+        text-align: center;
+        text-align:center; font-size: 50px; text-shadow: 7px 4px 5px rgb(178, 178, 204);
+      }
+      descripcion-erick{
+        display: ;
+      }
+      /* Aqui finalizan los estilos de los perfiles */
+      
