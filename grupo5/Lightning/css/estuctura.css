@@ -99,7 +99,7 @@
 /* --AREA DE SERVICIO--  */
 .servicios {
   background-color: #131313;
-  padding: 2rem;
+  padding-top: 2rem;
   padding-bottom: 4rem;
 }
   .servicios_content {
@@ -128,7 +128,7 @@
   }
     .card_imagen-1 {
       background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(../img/servicio1.jpg);
-      background-position: center left;
+      background-position: center center;
       background-size: cover;
     }
     
@@ -158,3 +158,10 @@
       background-color: transparent;
       border: 0.125rem solid white;
     }
+
+   @media screen and (max-width: 870px) {
+    .card__content {
+      flex-flow: column wrap;
+      align-content: space-between;
+    }
+   }
