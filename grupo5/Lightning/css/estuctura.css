@@ -4,6 +4,9 @@
   padding: 0;
 }
 
+body {
+  background-color: #131313;
+}
 /* --NAVBAR (BARRA DE NAVEGACIÓN)-- */
 .header {
   background-color: #0E0E0E;
@@ -114,6 +117,8 @@
   }
   .card__content {
     display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
   }
   .card {
     align-items: center;
@@ -159,9 +164,4 @@
       border: 0.125rem solid white;
     }
 
-   @media screen and (max-width: 870px) {
-    .card__content {
-      flex-flow: column wrap;
-      align-content: space-between;
-    }
-   }
+/* --AREA PRODUCTOS-- */
