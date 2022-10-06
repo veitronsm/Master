@@ -108,6 +108,10 @@ body {
   .servicios_content {
     display: flex;
     flex-flow: column nowrap;
+    padding: 2rem;
+  }
+  .servicios_background {
+    background-color: #1D1D1D;
   }
   .servicios__title {
     background-color: red;
