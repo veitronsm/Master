@@ -100,10 +100,10 @@ body {
       }
 
 /* --AREA DE SERVICIO--  */
-.servicios {
+.seccion {
   background-color: #131313;
-  padding-top: 2rem;
-  padding-bottom: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
   .servicios_content {
     display: flex;
@@ -113,7 +113,11 @@ body {
   .servicios_background {
     background-color: #1D1D1D;
   }
-  .servicios__title {
+  .grupo__content-title {
+    display: flex;
+    justify-content: center;
+  }
+  .grupo__title {
     background-color: red;
     color: white;
     margin: 2rem;
@@ -129,7 +133,7 @@ body {
     color: white;
     display: flex;
     flex-flow: column nowrap;
-    height: 25rem;
+    /* height: 25rem; */
     justify-content: flex-start;
     margin: 1rem;
     padding: 1rem;
@@ -169,3 +173,37 @@ body {
     }
 
 /* --AREA PRODUCTOS-- */
+    .grupo__content-title_flex-start {
+      justify-content: start;
+      padding: 1rem;
+    }
+    .grupo__title_trasparent {
+      background-color: transparent;
+    }
+    .grupo__title_estruct {
+      margin: 0;
+      padding: 0;
+    }
+    
+
+/* --AREA CONTACTOS-- */
+    .margin__bottom-inactive {
+      margin-bottom: 0;
+    }
+    .card_contact {
+      background-color: #1A1A1A;
+      justify-content: center;
+      width: 14rem;
+      margin: 1.5rem;
+      padding: 5rem 0;
+      box-shadow: 0px 1px 10px 10px rgba(0, 0, 0, 0.22);
+    }
+    .card__icon {
+      font-size: 5rem;
+    }
+    .card__info {
+      margin: 1rem;
+    }
+    .card__content-group_padding {
+      margin: 2rem;
+    }

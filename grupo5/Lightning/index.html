@@ -18,10 +18,10 @@
       </div>
 
       <nav class="navbar">
-        <a href="index.html" class="navbar__link">Inicio</a>
-        <a href="#servicios" class="navbar__link">Servicios</a>
-        <a href="#productos" class="navbar__link">Productos</a>
-        <a href="#contacto " class="navbar__link">Contacto</a>
+        <a href="#scroll-inicio" class="navbar__link">Inicio</a>
+        <a href="#scroll-services" class="navbar__link">Suscripciones</a>
+        <a href="#scroll-product" class="navbar__link">Productos</a>
+        <a href="#scroll-contacto" class="navbar__link">Contacto</a>
         <a href="cart.html" class="navbar__link navbar__link_border-inactive"><i class="fa-solid fa-cart-shopping"></i></a>
       </nav>
     </div>
@@ -29,7 +29,7 @@
 
   <main class="main">
 
-    <section class="hero">
+    <section id="scroll-inicio" class="hero">
       <div class="content hero__content">
         <h1 class="hero__title">Bienvenido</h1>
         <p class="hero__eslogan">En nuestra plataforma podras obtener tu rutina de ejercicios personalizados</p>
@@ -39,82 +39,205 @@
       </div>
     </section>
 
-    <section id="scroll-services" class="servicios">
+    <section id="scroll-services" class="seccion">
       <div class="content servicios_content servicios_background">
-        <h1 class="servicios__title">Suscripciones</h1>
-        <div class="card__content">
-          <div class="card card_imagen-1 card_imagen-size">
-            <h1 class="card__title">Plan Basico</h1>
-            <h2 class="card__descripcion">Descripción</h2>
-            <h2 class="card__precio">$10</h2>
-            <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
-            <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
-            <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
-            <div class="button card_button-transparent">
-                <a href="login.html" class="button__link">Ver más</a>
-            </div>
+        <div class="grupo__Cards">
+          <div class="grupo__content-title">
+            <h1 class="grupo__title">Suscripciones</h1>
           </div>
-          <div class="card card_imagen-2 card_imagen-size">
-            <h1 class="card__title">Plan Pro</h1>
-            <h2 class="card__descripcion">Descripción</h2>
-            <h2 class="card__precio">$15</h2>
-            <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
-            <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
-            <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
-            <div class="button card_button-transparent">
-                <a href="login.html" class="button__link">Ver más</a>
+          <div class="card__content">
+            <div class="card card_imagen-1 card_imagen-size">
+              <h1 class="card__title">Plan Basico</h1>
+              <h2 class="card__descripcion">Descripción</h2>
+              <h2 class="card__precio">$10</h2>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <div class="button card_button-transparent">
+                  <a href="login.html" class="button__link">Ver más</a>
+              </div>
             </div>
-          </div>
-          <div class="card card_imagen-3 card_imagen-size">
-            <h1 class="card__title">Plan Ilimitado</h1>
-            <h2 class="card__descripcion">Descripción</h2>
-            <h2 class="card__precio">$100</h2>
-            <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
-            <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
-            <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
-            <div class="button card_button-transparent">
-                <a href="login.html" class="button__link">Ver más</a>
+            <div class="card card_imagen-2 card_imagen-size">
+              <h1 class="card__title">Plan Pro</h1>
+              <h2 class="card__descripcion">Descripción</h2>
+              <h2 class="card__precio">$15</h2>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <div class="button card_button-transparent">
+                  <a href="login.html" class="button__link">Ver más</a>
+              </div>
+            </div>
+            <div class="card card_imagen-3 card_imagen-size">
+              <h1 class="card__title">Plan Ilimitado</h1>
+              <h2 class="card__descripcion">Descripción</h2>
+              <h2 class="card__precio">$100</h2>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <div class="button card_button-transparent">
+                  <a href="login.html" class="button__link">Ver más</a>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="scroll-product" class="productos">
+    <!-- SECCION DE PRODUCTOS -->
+    <section id="scroll-product" class="seccion">
       <div class="content servicios_content servicios_background">
-        <h1 class="servicios__title">Suscripciones</h1>
-        <div class="card__content">
-          <div class="card card_imagen-1 card_imagen-size">
-            <h1 class="card__title">Plan Basico</h1>
-            <h2 class="card__descripcion">Descripción</h2>
-            <h2 class="card__precio">$10</h2>
-            <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
-            <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
-            <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
-            <div class="button card_button-transparent">
-                <a href="login.html" class="button__link">Ver más</a>
+
+        <!-- Apartado de maquinas -->
+        <div class="grupo__Cards">
+          <div class="grupo__content-title grupo__content-title_flex-start">
+            <h1 class="grupo__title grupo__title_trasparent grupo__title_estruct">Maquinas</h1>
+          </div>
+          <div class="card__content">
+            <div class="card card__product_imagen-1 card_imagen-size">
+              <h1 class="card__title">Plan Basico</h1>
+              <h2 class="card__descripcion">Descripción</h2>
+              <h2 class="card__precio">$10</h2>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <div class="button card_button-transparent">
+                  <a href="login.html" class="button__link">Ver más</a>
+              </div>
+            </div>
+            <div class="card card__product_imagen-2 card_imagen-size">
+              <h1 class="card__title">Plan Pro</h1>
+              <h2 class="card__descripcion">Descripción</h2>
+              <h2 class="card__precio">$15</h2>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <div class="button card_button-transparent">
+                  <a href="login.html" class="button__link">Ver más</a>
+              </div>
+            </div>
+            <div class="card card__product_imagen-3 card_imagen-size">
+              <h1 class="card__title">Plan Ilimitado</h1>
+              <h2 class="card__descripcion">Descripción</h2>
+              <h2 class="card__precio">$100</h2>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <div class="button card_button-transparent">
+                  <a href="login.html" class="button__link">Ver más</a>
+              </div>
             </div>
           </div>
-          <div class="card card_imagen-2 card_imagen-size">
-            <h1 class="card__title">Plan Pro</h1>
-            <h2 class="card__descripcion">Descripción</h2>
-            <h2 class="card__precio">$15</h2>
-            <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
-            <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
-            <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
-            <div class="button card_button-transparent">
-                <a href="login.html" class="button__link">Ver más</a>
+        </div>
+        
+        <!-- Apartado de zapatillas -->
+        <div class="grupo__Cards">
+          <div class="grupo__content-title grupo__content-title_flex-start">
+            <h1 class="grupo__title grupo__title_trasparent grupo__title_estruct">Zapatillas</h1>
+          </div>
+          <div class="card__content">
+            <div class="card card__product_imagen-4 card_imagen-size">
+              <h1 class="card__title">Plan Basico</h1>
+              <h2 class="card__descripcion">Descripción</h2>
+              <h2 class="card__precio">$10</h2>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <div class="button card_button-transparent">
+                  <a href="login.html" class="button__link">Ver más</a>
+              </div>
+            </div>
+            <div class="card card__product_imagen-5 card_imagen-size">
+              <h1 class="card__title">Plan Pro</h1>
+              <h2 class="card__descripcion">Descripción</h2>
+              <h2 class="card__precio">$15</h2>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <div class="button card_button-transparent">
+                  <a href="login.html" class="button__link">Ver más</a>
+              </div>
+            </div>
+            <div class="card card__product_imagen-6 card_imagen-size">
+              <h1 class="card__title">Plan Ilimitado</h1>
+              <h2 class="card__descripcion">Descripción</h2>
+              <h2 class="card__precio">$100</h2>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <div class="button card_button-transparent">
+                  <a href="login.html" class="button__link">Ver más</a>
+              </div>
             </div>
           </div>
-          <div class="card card_imagen-3 card_imagen-size">
-            <h1 class="card__title">Plan Ilimitado</h1>
-            <h2 class="card__descripcion">Descripción</h2>
-            <h2 class="card__precio">$100</h2>
-            <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
-            <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
-            <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
-            <div class="button card_button-transparent">
-                <a href="login.html" class="button__link">Ver más</a>
+        </div>
+
+        <!-- Apartado de Ropa -->
+        <div class="grupo__Cards">
+          <div class="grupo__content-title grupo__content-title_flex-start">
+            <h1 class="grupo__title grupo__title_trasparent grupo__title_estruct">Ropa</h1>
+          </div>
+          <div class="card__content">
+            <div class="card card__product_imagen-7 card_imagen-size">
+              <h1 class="card__title">Plan Basico</h1>
+              <h2 class="card__descripcion">Descripción</h2>
+              <h2 class="card__precio">$10</h2>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <div class="button card_button-transparent">
+                  <a href="login.html" class="button__link">Ver más</a>
+              </div>
+            </div>
+            <div class="card card__product_imagen-8 card_imagen-size">
+              <h1 class="card__title">Plan Pro</h1>
+              <h2 class="card__descripcion">Descripción</h2>
+              <h2 class="card__precio">$15</h2>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <div class="button card_button-transparent">
+                  <a href="login.html" class="button__link">Ver más</a>
+              </div>
+            </div>
+            <div class="card card__product_imagen-9 card_imagen-size">
+              <h1 class="card__title">Plan Ilimitado</h1>
+              <h2 class="card__descripcion">Descripción</h2>
+              <h2 class="card__precio">$100</h2>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <h3 class="card__beneficios"><i class="fa-solid fa-check"></i>Función</h3>
+              <div class="button card_button-transparent">
+                  <a href="login.html" class="button__link">Ver más</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECCION DE CONTACTO -->
+    <section id="scroll-contacto" class="seccion">
+      <div class="content servicios_content servicios_background">
+        <div class="grupo__Cards">
+          <div class="grupo__content-title">
+            <h1 class="grupo__title grupo__title_trasparent margin__bottom-inactive">¡Contactanos!</h1>
+          </div>
+          <div class="card__content card__content-group_padding">
+            <div class="card card_contact">
+              <i class="fa-solid fa-phone card__icon"></i>
+              <h3 class="card__info">+57 322 665 9887</h3>
+              <h4 class="card__info">¡Llamanos!</h4>
+            </div>
+            <div class="card card_contact">
+              <i class="fa-regular fa-envelope card__icon"></i>
+              <h3 class="card__info">info@vawill.com</h3>
+              <h4 class="card__info">¡Escribenos!</h4>
+            </div>
+            <div class="card card_contact">
+              <i class="fa-solid fa-location-dot card__icon"></i>
+              <h3 class="card__info">Vawill</h3>
+              <h4 class="card__info">¡Visitanos!</h4>
             </div>
           </div>
         </div>
