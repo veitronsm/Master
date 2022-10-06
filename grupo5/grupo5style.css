@@ -4,11 +4,12 @@
 }
 
 
-/* @media screen and (min-width: 780px) {
-    .full-width-img {
-    margin: auto;
-    width: 90%;
-    } */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
 
 .presentacion {
     padding: 5px;
@@ -102,8 +103,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 250px;
-    height: 330px;
+    width: 15.625rem;
+    height: 20.625rem;
     text-align: center;
     margin: 0.5%;
     padding: 0.5%;
@@ -153,10 +154,4 @@ main {
     .tarjeta {
         margin: 1rem;
     }
-}
-
-@media screen and (min-width: 480px){
-  main {
-    height: calc(100vh - 242.18px);
-  }
 }
