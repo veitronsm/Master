@@ -1,91 +1,47 @@
-body{
-    min-height: 600px;
-    padding: 80px 0;
-    background-color: #020202;
-    background-repeat: no-repeat;
-
-    display: flex;
+*{
+    margin: 0%;
+    padding: 0%;
 }
 
-.main{
-    margin: auto;
-    width: 90%;
-    max-width: 1000px;
-    overflow: hidden;
-    padding: .7em;
-    border-radius: 1em;
-
-    display: grid;
-    grid-auto-rows: max-content;
-    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
-    gap: .6em;
-
-    animation: mostrar 1.5s ease-in-out;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../img/);
-    background-size: cover;
-    background-position: center center;
-    flex-flow: column nowrap;
-    justify-content: flex-start;
-    height: 37.5rem;
-    padding: 0 1rem;
-    padding-top: 12.5rem;
-}
-
-@keyframes mostrar {
-    0%{
-        opacity: 0;
-    }
-
-    100%{
-        opacity: 1;
-    }
-}
-
-.main__figure{
-    overflow: hidden;
-    border-radius: 1em;
-    background-color: #020202;
-    display: flex;
-}
-
-.main__img{
-    margin:auto;
-    width: 200%;
-    max-width: 200%;
-}
-
-.main__contact{
+.iniciar{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 1.5em;
-    padding: 3em .7em;
+    align-items: center;
     text-align: center;
-}
-
-.main__form{
-    display: grid;
-    justify-items: right;
-    gap: 3.9em;
-}
-
-.main__input{
-    width: 80%;
-    max-width: 500px;
-    outline: none;
-    padding: 1em;
-    font: inherit;
-    background-color: rgb(27, 27, 27);
 
 }
+.formulario {
+    display: flex;
+    background-color: #171818;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    }
+    .registro__atras {
+        width: 37px;
+        height: 32px;
+        float: right;
+    }
 
-.main__input--send{
-    background-color:  red;
-    color: #fff;
-    font-weight: 600;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 0.12rem 10.10rem;;
-    border-radius: .6em;
+.registro__data{
+    background-color: #363636;
+    width: 300px;
+    height: 50px;
+    margin-bottom: 25px;
+
+
+}
+.registro__data::placeholder {
+    color: #FFFAFA;
+}
+
+.registro__enviar {
+    border-radius: 10px;
+    background-color: #FF0000;
+    color: white;
+    width: 300px;
+    height: 50px;
+      
 
 
 }
@@ -95,3 +51,14 @@ body{
     color: #fff;
     font-family:'Times New Roman', Times, serif;
 }
+.login__imagen{
+    width: 100%;
+    
+}
+.enlaces{
+    border-bottom: 0.1875rem solid transparent;
+    color: white;
+    padding: 0.8rem 0.6rem 0.675rem 0.6rem;
+    text-decoration: none;
+  }
+
