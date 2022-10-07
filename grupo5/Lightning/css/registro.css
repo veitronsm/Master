@@ -4,6 +4,9 @@
     font-family: 'Times New Roman', Times, serif;
 }
 
+
+/* variables */
+
 :root {
     --corlor-de-datos: #333333;
     --color-de-fondo: #16191c;
@@ -13,12 +16,24 @@
     --color-de-inicio: #FF0000;
 }
 
+
+/* variables */
+
+
+/* cuerpo de formulario */
+
 body {
     background-color: var(--color-de-fondo);
     display: flex;
     width: 100%;
     justify-content: center;
 }
+
+
+/* cuerpo del formulario */
+
+
+/* boton de regreso a iniciar sesion */
 
 .registro__atras {
     margin-right: 10px;
@@ -27,6 +42,12 @@ body {
     height: 32px;
     float: right;
 }
+
+
+/* fin de boton */
+
+
+/* inicio de estilos formulario */
 
 .formulario {
     display: flex;
@@ -48,6 +69,9 @@ body {
     color: var(--color-de-texto);
 }
 
+
+/* estilos de input data */
+
 .registro__data {
     background-color: var(--corlor-de-datos);
     width: 300px;
@@ -63,6 +87,12 @@ body {
     background-color: var(--color-de-hover1);
 }
 
+
+/* fin de estilos input data */
+
+
+/* inicio estilos boton enviar */
+
 .registro__enviar {
     border-radius: 10px;
     background-color: var(--color-de-inicio);
@@ -76,13 +106,28 @@ body {
     background-color: var(--color-de-hover2);
 }
 
+
+/* fin estilos enviar */
+
+
+/* estilos de en laces */
+
 .enlaces {
     text-decoration: none;
     color: var(--color-de-texto);
     font-size: 20px;
 }
 
+
+/* fin estilos enlaces */
+
+
+/* inicio estilo imagen formulario */
+
 .formulario__imagen {
     width: 100%;
     border-radius: 8px;
 }
+
+
+/* fin de estilos de imagen */
