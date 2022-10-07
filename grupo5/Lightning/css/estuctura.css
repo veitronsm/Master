@@ -7,6 +7,7 @@
 body {
   background-color: #131313;
 }
+
 /* --NAVBAR (BARRA DE NAVEGACIÓN)-- */
 .header {
   background-color: #0E0E0E;
@@ -56,6 +57,10 @@ body {
       .navbar__link_border-inactive:hover {
         border-bottom: transparent solid;
       }
+      .navbar__link_marco {
+        padding: 0.3rem 0.6rem;
+        border: 1px solid white;
+      }
 
 /* --AREA DEL HERO (LANDING PAGE)-- */
 .hero {
@@ -100,10 +105,10 @@ body {
       }
 
 /* --AREA DE SERVICIO--  */
-.servicios {
+.seccion {
   background-color: #131313;
-  padding-top: 2rem;
-  padding-bottom: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
 }
   .servicios_content {
     display: flex;
@@ -113,7 +118,11 @@ body {
   .servicios_background {
     background-color: #1D1D1D;
   }
-  .servicios__title {
+  .grupo__content-title {
+    display: flex;
+    justify-content: center;
+  }
+  .grupo__title {
     background-color: red;
     color: white;
     margin: 2rem;
@@ -129,7 +138,6 @@ body {
     color: white;
     display: flex;
     flex-flow: column nowrap;
-    height: 25rem;
     justify-content: flex-start;
     margin: 1rem;
     padding: 1rem;
@@ -169,3 +177,125 @@ body {
     }
 
 /* --AREA PRODUCTOS-- */
+    .grupo__content-title_flex-start {
+      justify-content: start;
+      padding: 1rem;
+    }
+    .grupo__title_trasparent {
+      background-color: transparent;
+    }
+    .grupo__title_estruct {
+      margin: 0;
+      padding: 0;
+    }
+    .card__product {
+      border: 1px solid white;
+      padding: 0;
+    }
+    .card__img-product {
+      height: 9.375rem;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center center;
+    }
+      .card__img-product_1 {
+        background-image: url(../img/productos/producto-1.png);
+      }
+      .card__img-product_2 {
+        background-image: url(../img/productos/producto-2.png);
+      }
+      .card__img-product_3 {
+        background-image: url(../img/productos/producto-3.png);
+      }
+      .card__img-product_4 {
+        background-image: url(../img/productos/producto-4.png);
+      }
+      .card__img-product_5 {
+        background-image: url(../img/productos/producto-5.png);
+      }
+      .card__img-product_6 {
+        background-image: url(../img/productos/producto-6.png);
+      }
+      .card__img-product_7 {
+        background-image: url(../img/productos/producto-7.jpg);
+      }
+      .card__img-product_8 {
+        background-image: url(../img/productos/producto-8.png);
+      }
+      .card__img-product_9 {
+        background-image: url(../img/productos/producto-9.png);
+      }
+    
+      .card__product_content-title {
+        width: 100%;
+        padding: 0 2rem;
+      }
+      .card__product_title {
+        font-size: 1.2rem;
+        margin: 0.5rem 0;
+      }
+      .card__product_line {
+        border: 1px solid white;
+        margin: 1rem 0;
+        width: 100%;
+      }
+      .card__product_content-buttons {
+        display: flex;
+        justify-content: space-between;
+        padding: 2rem 0;
+      }
+      .card__product_button {
+        text-decoration: none;
+        color: white;
+      }
+/* --AREA CONTACTOS-- */
+    .margin__bottom-inactive {
+      margin-bottom: 0;
+    }
+    .card_contact {
+      background-color: #1A1A1A;
+      justify-content: center;
+      width: 14rem;
+      margin: 1.5rem;
+      padding: 5rem 0;
+      box-shadow: 0px 1px 10px 10px rgba(0, 0, 0, 0.22);
+    }
+    .card__icon {
+      font-size: 5rem;
+    }
+    .card__info {
+      margin: 1rem;
+    }
+    .card__content-group_padding {
+      margin: 2rem;
+    }
+    /* --AREA FOOTER-- */
+    .footer {
+      background-color: #0A0909;
+    }
+    .footer__text {
+      color: white;
+      font-size: 1rem;
+      padding: 0 0.5rem;
+    }
+    .footer__content_redes {
+      padding: 1rem;
+      display: flex;
+      align-items: center;
+    }
+    .footer__icon {
+      color: white;
+      font-size: 1.5rem;
+      padding: 0.425rem;
+    }
+
+    @media screen and (max-width:600px) {
+      .header__content {
+        flex-flow: column wrap;
+
+      }
+      .navbar {
+        flex-wrap: wrap;
+      }
+    }
