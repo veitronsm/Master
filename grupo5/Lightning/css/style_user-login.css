@@ -1,0 +1,30 @@
+.avatar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 0.5rem;
+}
+.avatar__link {
+  display: flex;
+  align-items: center;
+}
+.avatar__img {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+}
+.navbar__link_salir {
+  padding: 0 0.5rem;
+}
+.hero__title {
+  margin: 1rem;
+}
+.hero__button {
+  margin-top: 2rem;
+}
+.button__link_user-log {
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 0.2rem 0.5rem;
+  text-shadow: 0 2px 5px black;
+}

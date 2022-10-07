@@ -54,12 +54,16 @@ body {
       .navbar__link:hover {
         border-bottom: white solid;
       }
+      .navbar__link_border-inactive {
+        border-bottom: none;
+      }
       .navbar__link_border-inactive:hover {
-        border-bottom: transparent solid;
+        border-bottom: none;
       }
       .navbar__link_marco {
-        padding: 0.3rem 0.6rem;
+        padding: 0.3rem 0.6rem 0.3rem 0.6rem;
         border: 1px solid white;
+        margin: 0 0.5rem;
       }
 
 /* --AREA DEL HERO (LANDING PAGE)-- */
@@ -144,7 +148,7 @@ body {
     width: 15.625rem;
   }
     .card_imagen-1 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(../img/servicio1.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(../img/servicio1.png);
       background-position: center center;
       background-size: cover;
     }
@@ -178,8 +182,8 @@ body {
 
 /* --AREA PRODUCTOS-- */
     .grupo__content-title_flex-start {
-      justify-content: start;
-      padding: 1rem;
+      justify-content:space-evenly;
+      flex-wrap: wrap;
     }
     .grupo__title_trasparent {
       background-color: transparent;
@@ -187,6 +191,9 @@ body {
     .grupo__title_estruct {
       margin: 0;
       padding: 0;
+    }
+    .grupo__title-responsive {
+      width: 15.625rem;
     }
     .card__product {
       border: 1px solid white;
