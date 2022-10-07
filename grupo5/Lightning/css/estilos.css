@@ -2,6 +2,7 @@
     margin: 0%;
     padding: 0%;
 }
+/* --Estilos de formulario-- */
 
 .iniciar{
     display: flex;
@@ -19,11 +20,7 @@
     height: 105%;
     align-items: center;
     }
-    .registro__atras {
-        width: 37px;
-        height: 32px;
-        float: right;
-    }
+    
 
 .registro__data{
     background-color: #363636;
@@ -36,6 +33,7 @@
 .registro__data::placeholder {
     color: #FFFAFA;
 }
+/* --estilos del boton (iniciar sesión)-- */
 
 .registro__enviar {
     border-radius: 10px;
@@ -47,6 +45,7 @@
 
 
 }
+/* --Estilos del titulo-- */
 
 .main__title{
     font-size: 2.3rem;
