@@ -73,7 +73,7 @@ body {
   width: 100%;
 }
   .hero__content {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.5)), url(../img/hero-img.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.2)), url(../img/hero-img.jpg);
     background-size: cover;
     background-position: center center;
     flex-flow: column nowrap;
@@ -148,18 +148,18 @@ body {
     width: 15.625rem;
   }
     .card_imagen-1 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(../img/servicio1.png);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url(../img/servicio1.png);
       background-position: center center;
       background-size: cover;
     }
     
     .card_imagen-2 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(../img/servicio2.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url(../img/servicio2.jpg);
       background-position: center center;
       background-size: cover;
     }
     .card_imagen-3 {
-      background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(../img/servicio3.jpg);
+      background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.1)), url(../img/servicio3.jpg);
       background-position: center center;
       background-size: cover;
     }
