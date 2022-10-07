@@ -1,10 +1,20 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+:root {
+    --corlor-de-datos: #333333;
+    --color-de-fondo: #161916;
+    --color-de-texto: white;
+    --color-de-hover1: #6b6a6a;
+    --color-de-hover2: #ff1e1e;
+    --color-de-inicio: #FF0000;
 }
 
 body {
-    background-color: #16191C;
+    background-color: var(--color-de-fondo);
     display: flex;
     width: 100%;
     justify-content: center;
@@ -20,10 +30,10 @@ body {
 
 .formulario {
     display: flex;
-    background-color: #16191C;
+    background-color: var(--color-de-fondo);
     width: 95%;
     height: 94%;
-    border: #16191c solid 5px;
+    border: var(--color-de-fondo) solid 5px;
     margin: 10px;
 }
 
@@ -34,37 +44,41 @@ body {
     text-align: center;
 }
 
+.registro__titulo {
+    color: var(--color-de-texto);
+}
+
 .registro__data {
-    background-color: #333333;
+    background-color: var(--corlor-de-datos);
     width: 300px;
     height: 50px;
     margin-bottom: 25px;
 }
 
 .registro__data::placeholder {
-    color: #FFFAFA;
+    color: var(--color-de-texto);
 }
 
 .registro__data:hover {
-    background-color: #6b6a6a;
+    background-color: var(--color-de-hover1);
 }
 
 .registro__enviar {
     border-radius: 10px;
-    background-color: #FF0000;
-    color: white;
+    background-color: var(--color-de-inicio);
+    color: var(--color-de-texto);
     font-size: 15px;
     width: 300px;
     height: 50px;
 }
 
 .registro__enviar:hover {
-    background-color: #800000;
+    background-color: var(--color-de-hover2);
 }
 
 .enlaces {
     text-decoration: none;
-    color: white;
+    color: var(--color-de-texto);
     font-size: 20px;
 }
 
