@@ -22,7 +22,7 @@
 
 /* cuerpo de formulario */
 
-body {
+.cuerpo {
     background-color: var(--color-de-fondo);
     display: flex;
     width: 100%;
@@ -49,7 +49,7 @@ body {
 
 /* inicio de estilos formulario */
 
-.formulario {
+.formularis {
     display: flex;
     background-color: var(--color-de-fondo);
     width: 95%;
